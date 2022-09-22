@@ -4,36 +4,31 @@
       <ul class="nav">
         <li class="nav-item">
           <a
-            href="http://qao.io"
+            href="http://aqifi.com"
             target="_blank"
             rel="noopener"
             class="nav-link"
           >
-            qao.io
+            aqifi.com
           </a>
         </li>
         <li class="nav-item">
           <a
-            href="https://qao.io/more-details"
+            href="https://aqifi.com/more-details"
             target="_blank"
             rel="noopener"
             class="nav-link"
           >
-            About QAO
+            About Aqifi
           </a>
         </li>
         <li class="nav-item">
-          <a
-            rel="noopener"
-            class="nav-link disabled"
-          >
-            Blog
-          </a>
+          <a rel="noopener" class="nav-link disabled"> Blog </a>
         </li>
       </ul>
       <div class="copyright">
         &copy; {{ year }}, made with <i class="tim-icons icon-heart-2"></i> by
-        <a href="https://qao.io" rel="noopener" target="_blank">Qao</a>.
+        <a href="https://aqifi.com" rel="noopener" target="_blank">AQA</a>.
       </div>
     </div>
   </footer>
@@ -42,9 +37,9 @@
 export default {
   data() {
     return {
-      year: new Date().getFullYear()
+      year: new Date().getFullYear(),
     };
-  }
+  },
 };
 </script>
 <style>
