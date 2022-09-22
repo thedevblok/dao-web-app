@@ -4,8 +4,8 @@
       <div class="col-12 col-md-6 p-2">
         <page-card
           icon="edit"
-          title="API"
-          description="Write text about your API"
+          title="Contribute"
+          description="Onboard as a DAO contributor"
           link="https://google.com"
           :secondLink="{
             title: 'Form',
@@ -37,7 +37,7 @@
           page="vote"
         />
       </div>
-      <div class="col-12 col-md-6 p-2">
+      <div class="col-12 col-md-6 p-2" v-if="false">
         <page-card
           icon="edit"
           title="DEX"

@@ -14,7 +14,7 @@
         </sidebar-item>
         <sidebar-item
           :link="{
-            name: 'API',
+            name: 'Contribute',
             icon: 'tim-icons icon-coins',
             path: 'https://google.com',
             external: true,
@@ -34,15 +34,6 @@
             name: 'Voting',
             icon: 'tim-icons icon-bullet-list-67',
             path: '/vote',
-          }"
-        >
-        </sidebar-item>
-        <sidebar-item
-          :link="{
-            name: 'DEX',
-            icon: 'tim-icons icon-refresh-02',
-            path: '/rareswap',
-            disabled: true,
           }"
         >
         </sidebar-item>
