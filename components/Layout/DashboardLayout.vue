@@ -52,7 +52,7 @@
               :link="{
                 name: $t('sidebar.example'),
                 isRoute: false,
-                path: 'https://google.com',
+                path: 'https://dao.aqifi.com',
                 target: '_blank'
               }"
             ></sidebar-item>
@@ -217,11 +217,11 @@ function initScrollbar(className) {
   }
 }
 
-import DashboardNavbar from './DashboardNavbar.vue';
-import ContentFooter from './ContentFooter.vue';
-import DashboardContent from './Content.vue';
-import SidebarFixedToggleButton from './SidebarFixedToggleButton.vue';
 import { SlideYDownTransition, ZoomCenterTransition } from 'vue2-transitions';
+import DashboardContent from './Content.vue';
+import ContentFooter from './ContentFooter.vue';
+import DashboardNavbar from './DashboardNavbar.vue';
+import SidebarFixedToggleButton from './SidebarFixedToggleButton.vue';
 
 export default {
   components: {

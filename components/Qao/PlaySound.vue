@@ -28,7 +28,7 @@ export default {
     },
     playSound() {
       if (this.isSoundEnabled) {
-        this.audio = new Audio(require('@/assets/sounds/qao.mp3').default);
+        this.audio = new Audio(require('@/assets/sounds/spaceship-ambience-2.mp3').default);
         this.audio.loop = true;
         this.audio.volume = 1;
         this.audio.play();

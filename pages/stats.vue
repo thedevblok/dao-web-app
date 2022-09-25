@@ -34,13 +34,11 @@
 </template>
 
 <script>
-import Account from "@/components/Qao/Account";
 import BaseAlert from "@/components/BaseAlert";
-import { mapGetters } from "vuex";
+import Account from "@/components/Qao/Account";
 import Web3Wallet from "@/components/Qao/web3/Web3Wallet";
 import Ticker from "@/components/Stats/Ticker";
-import LineChart from "~/components/Charts/BarChart";
-import axios from "axios";
+import { mapGetters } from "vuex";
 
 export default {
   components: {
@@ -51,7 +49,7 @@ export default {
   },
   mounted() {
     console.log("mounted");
-    console.log(this.blueBarChart.chartData);
+    // console.log(this.blueBarChart.chartData);
     // this.blueBarChart.chartData.datasets[0].data = ;
   },
   computed: {
@@ -67,7 +65,7 @@ export default {
 .nomics-ticker-widget-embedded::after {
   content: "";
   background-size: 37px 37px;
-  background-image: url("@/assets/images/qao-white.png");
+  background-image: url("https://thedevblok.github.io/aqifi/images/new_logo_5-removebg-preview.png");
   filter: invert(1);
   z-index: 1;
   width: 37px;

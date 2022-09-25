@@ -3,7 +3,7 @@
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
         <a href="https://www.aqifi.com" class="simple-text logo-mini">
-          <img src="~/assets/images/qao-white.png" alt="app-logo" />
+          <img src="https://thedevblok.github.io/aqifi/images/new_logo_5-removebg-preview.png" alt="app-logo" />
         </a>
         <a href="https://www.aqifi.com" class="simple-text logo-normal">
           {{ title }}

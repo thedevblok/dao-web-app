@@ -16,7 +16,7 @@
           :link="{
             name: 'Contribute',
             icon: 'tim-icons icon-coins',
-            path: 'https://google.com',
+            path: 'https://dao.aqifi.com',
             external: true,
           }"
         >
@@ -63,9 +63,9 @@
 </template>
 <script>
 /* eslint-disable no-new */
+import SidebarShare from "@/components/Layout/SidebarSharePlugin";
 import PerfectScrollbar from "perfect-scrollbar";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
-import SidebarShare from "@/components/Layout/SidebarSharePlugin";
 function hasElement(className) {
   return document.getElementsByClassName(className).length > 0;
 }
@@ -81,12 +81,12 @@ function initScrollbar(className) {
   }
 }
 
-import DashboardNavbar from "@/components/Layout/DashboardNavbar.vue";
-import ContentFooter from "@/components/Layout/ContentFooter.vue";
 import DashboardContent from "@/components/Layout/Content.vue";
+import ContentFooter from "@/components/Layout/ContentFooter.vue";
+import DashboardNavbar from "@/components/Layout/DashboardNavbar.vue";
 import SidebarFixedToggleButton from "@/components/Layout/SidebarFixedToggleButton.vue";
-import { SlideYDownTransition, ZoomCenterTransition } from "vue2-transitions";
 import PlaySound from "@/components/Qao/PlaySound.vue";
+import { SlideYDownTransition, ZoomCenterTransition } from "vue2-transitions";
 
 export default {
   components: {

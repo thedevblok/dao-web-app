@@ -6,15 +6,14 @@
           icon="edit"
           title="Contribute"
           description="Onboard as a DAO contributor"
-          link="https://google.com"
+          link="https://github.com/aqifidao"
           :secondLink="{
             title: 'Form',
-            link: 'https://forms.gle',
+            link: 'https://forms.gle/LmczU5hYfqHrcE7W6',
           }"
         />
-      </div>
-      <div class="col-12 col-md-6 p-2">
         <page-card
+          v-if="false"
           icon="edit"
           title="NFT"
           description="Manage and explore digital collectibles."

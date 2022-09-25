@@ -23,8 +23,8 @@
   </Card>
 </template>
 <script>
-import Card from './Card.vue';
 import Badge from '../Badge.vue';
+import Card from './Card.vue';
 
 export default {
   name: 'page-card',
