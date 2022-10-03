@@ -6,7 +6,7 @@
           icon="edit"
           title="Contribute"
           description="Onboard as a DAO contributor"
-          link="https://github.com/aqifidao"
+          link="https://github.com/aqifi-dao"
           :secondLink="{
             title: 'Form',
             link: 'https://forms.gle/LmczU5hYfqHrcE7W6',
